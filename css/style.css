@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color:black;
+}
+
+main{
+  background-color: rgb(32, 20, 11);
+  color: white;
+  margin: auto;
+  max-width: 900px;
+  width: 80%;
+  border: 2px solid rgb(0, 153, 255);
+}
