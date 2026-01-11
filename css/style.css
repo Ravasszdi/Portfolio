@@ -15,4 +15,33 @@ main{
   width: 80%;
   border-right: 2px solid rgb(0, 153, 255);
   border-left: 2px solid rgb(0, 153, 255);
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:  "nav nav"
+                        "aside header"
+                        "aside article"
+                        "footer footer";
+}
+
+aside img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+
+nav{
+  grid-area: nav;
+}
+header{
+  grid-area: header;
+}
+aside{
+  grid-area: aside;
+}
+article{
+  grid-area: article;
+}
+footer{
+  grid-area: footer;
 }
