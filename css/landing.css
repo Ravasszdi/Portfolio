@@ -1,0 +1,19 @@
+aside{
+    position: static;
+}
+
+header h1{
+    margin: 0;
+    padding: 10px;
+}
+
+aside img{
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.stick{
+    position: sticky;
+    top: 0;
+}
